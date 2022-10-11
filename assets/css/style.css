@@ -244,9 +244,8 @@ h6 {
 
 .footer {
 	border-top: 1px solid rgba(196, 200, 204, 0.5);
-	margin-top: 40px;
+	margin-top: 20px;
 	padding-top: 25px;
-	padding-bottom: 40px;
 	width: 100%;
 	-webkit-animation-name: page-fade-in;
 	animation-name: page-fade-in;
@@ -261,6 +260,7 @@ h6 {
 @media (max-width: 576px) {
 	.footer {
 		text-align: center;
+		padding-bottom: 40px;
 	}
 }
 .footer .row {
@@ -358,7 +358,7 @@ h6 {
 }
 
 .info-blocks {
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-left: 16px;
@@ -452,7 +452,7 @@ h6 {
 }
 
 .body {
-	padding-top: 30px;
+	padding-top: 20px;
 	background-color: #fff;
 	color: #252525;
 	-webkit-animation-name: body-fade-in;
@@ -472,7 +472,7 @@ h6 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	overflow-x: hidden;
-	padding-top: 50px;
+	padding-top: 35px;
 	padding-bottom: 80px;
 	overflow-x: hidden;
 	background-color: #fff;
