@@ -51,16 +51,6 @@ h6 {
 	max-width: 1140px;
 }
 
-.container .main-body {
-	max-width: 940px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.navigation .container {
-	max-width: 1140px;
-}
-
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 720px;
@@ -124,10 +114,6 @@ h6 {
 }
 
 @media (max-width: 768px) {
-	.title  {
-		text-align: center;
-	}
-
 	.main-content {
 		padding-top: 30px !important;
 	}
@@ -353,7 +339,6 @@ h6 {
 }
 
 .logo {
-	padding-left: 8px;
 	margin-bottom: 30px;
 }
 
@@ -489,10 +474,4 @@ h6 {
 	justify-content: center;
 	padding-bottom: 10px;
 	background-color: transparent;
-}
-
-@media (min-width: 992px) {
-	.main-content {
-		min-height: calc(100vh - 70px - 50px);
-	}
 }
