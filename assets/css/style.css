@@ -63,9 +63,13 @@ h6 {
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
 	.container {
 		max-width: 1140px;
+	}
+	
+	.main-content {
+		padding-top: 50px !important;
 	}
 }
 
@@ -454,10 +458,9 @@ h6 {
 
 .main-content {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 35px;
 	padding-bottom: 50px;
 	overflow-x: hidden;
-	padding-top: 35px;
 	padding-bottom: 80px;
 	overflow-x: hidden;
 	background-color: #fff;
